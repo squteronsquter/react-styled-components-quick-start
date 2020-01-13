@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ResetStyles from './components/common/ResetStyles';
+import MainContainer from './components/containers/MainContainer';
+import HeadingOne from './components/typography/HeadingOne';
+import Button from './components/common/Button';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div>
+			<ResetStyles>
+				<MainContainer>
+					<HeadingOne>Heading One Component.</HeadingOne>
+					<Button>Go for It</Button>
+				</MainContainer>
+			</ResetStyles>
+		</div>
+	);
 }
 
 export default App;
