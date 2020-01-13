@@ -10,6 +10,10 @@
 
 ### `yarn create react-app styled-components-app`
 
+or
+
+### `npx create-react-app@latest styled-components-app`
+
 ### `cd styled-components-app`
 
 ### `yarn start`
