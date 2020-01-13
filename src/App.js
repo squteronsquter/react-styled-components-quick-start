@@ -10,7 +10,7 @@ function App() {
 			<ResetStyles>
 				<MainContainer>
 					<HeadingOne>Heading One Component.</HeadingOne>
-					<Button>Go for It</Button>
+					<Button alert>Go for It</Button>
 				</MainContainer>
 			</ResetStyles>
 		</div>

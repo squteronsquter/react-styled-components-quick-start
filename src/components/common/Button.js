@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 const Button = styled.button`
 	background-color: #fafafa;
@@ -9,8 +9,20 @@ const Button = styled.button`
 	font-size: 20px;
 	font-weight: 700;
 	max-width: 300px;
+	outline: none;
 	padding: 10px 20px;
 	text-transform: uppercase;
+
+	${props =>
+		props.primary &&
+		css`
+			background: orange;
+		`}
+	${props =>
+		props.alert &&
+		css`
+			background: red;
+		`}
 `;
 
 export default Button;
