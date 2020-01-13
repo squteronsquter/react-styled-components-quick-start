@@ -1,4 +1,30 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# This is the React Styled Components Start Project Template
+
+## Install styled components globally with Yarn or Npm:
+
+### `yarn add global styled components`
+
+### `sudo npm install -g styled-components`
+
+## Create a new React App with create-react-app
+
+### `yarn create react-app styled-components-app`
+
+### `cd styled-components-app`
+
+### `yarn start`
+
+or
+
+### `npm start`
+
+## Add/Install styled components locally in the app folder
+
+### `yarn add styled-components`
+
+or
+
+### `npm install --save styled-components`
 
 ## Available Scripts
 
