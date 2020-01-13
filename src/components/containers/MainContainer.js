@@ -3,9 +3,9 @@ import styled from 'styled-components';
 
 const MainContainer = styled.main`
 	align-items: center;
-	background-color: #2a2a2a;
+	/* background-color: #2a2a2a; */
 	box-sizing: border-box;
-	color: #fafafa;
+	/* color: #fafafa; */
 	display: flex;
 	flex-flow: column;
 	height: 100vh;
